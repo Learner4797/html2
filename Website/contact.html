@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/scripts.js"></script>
+</head>
+<body id="contact">
+	<div class="container">
+		<header class="header">
+			<a class="link-title" href="/">MS DHONI - AN INSPIRATION FOR MILLIONS</a>
+			
+		</header>
+
+		<nav class="menu">
+			<a href="index.html">Home</a> &nbsp; &nbsp; &nbsp;
+			<a href="about.html">About us</a> &nbsp; &nbsp; &nbsp;
+			<a href="contact.html">Contact</a>
+		</nav>
+
+
+		<aside>
+			
+			<h1>Contact</h1>
+
+		</aside>
+
+		<article class="main">
+
+			<h1 class="page-heading">Contact</h1>
+
+			<div id="form">
+
+				<form action="process.php" name="myform" onsubmit="return validateform()">
+				<p>
+					<label for="name">Name:</label>
+					<input type="text" name="name" placeholder="Enter your name">
+				</p>
+				<p>
+					Age group:
+					<select id="Age group">
+  					<option value="Choose">Choose</option>
+  					<option value="below 18">below 18</option>
+  					<option value="19-30">19-30</option>
+  					<option value="above 30">above 30</option>
+					</select>
+				</p>	
+
+				<p>
+					<label>Email id: <input type="text" name="Email id" placeholder="Enter your Email id"></label>
+				</p>
+					<label>Password: <input type="password" name="password" placeholder="Enter your password"></label>
+				<p>
+					<label for="name">Subject:</label>
+					<input type="text" name="subject" placeholder="Enter your subject">
+				</p>
+			<p>
+				<tr><td>Upload your pic: </td>
+				<td><input type="file" name="fileupload" accept="image/*"></td></tr>
+			</p>
+				<p>
+					<label for="name">Message:</label>
+					<textarea name="message" id="" cols="30" rows="5"></textarea></p>
+
+			<p>
+				<tr><td>Click to reset form:  </td>
+				<td><input type="reset" name="Reset" value="Reset" onclick="resetted()"></td></tr>
+				<tr><td>Click to submit form:  </td>
+				<td><input type="submit" name="submit" value="Register" ></td></tr>
+			</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<footer><center>
+
+			&copy; 2020 Minimal Website &nbsp; <span class="separator"> | </span>Design by <a href="https://www.instagram.com/ash1sh_1hakur10/?hl=en">Ashish singh</a>
+
+
+		</center></footer>
+
+	</div>
+	
+</body>
+</html>
